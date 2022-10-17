@@ -4,13 +4,14 @@ import Notification from "../../SVG/notification.svg"
 import Direction from "../../SVG/direction.svg"
 import Bag from "../../SVG/bag.svg"
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <div className='navbar-flex-div'>
             <div className='navbar-width-div'>
             <div className='navbar-main-div'>
             <div className='navbar-sub-div-one'>
-                <h3>CARGOZONE</h3>
+                
+                <h3>{props.Name}</h3>
             </div>
             <div className='navbar-sub-div-two'>
             <div>

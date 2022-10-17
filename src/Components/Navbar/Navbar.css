@@ -24,6 +24,7 @@ color: #1a0144;
 .nav-svg-icon{
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .navbar-sub-div-two{

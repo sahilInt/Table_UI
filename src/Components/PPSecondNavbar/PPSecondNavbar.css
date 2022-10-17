@@ -1,0 +1,80 @@
+.personal-patient-second-nav-flex-div{
+    display: flex;
+    justify-content: center;
+}
+.personal-patient-second-nav-width-div{
+    width: 100%;
+}
+.personal-patient-second-nav-main-div{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+.personal-patient-second-nav-sub-div-one{
+    display: flex;
+}
+.personal-patient-second-nav-main-div-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.personal-patient-second-nav-main-div-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.right-arrow-tag{
+    height: 20px;
+    width: 20px;
+}
+.second-pp-nav-svg-logo{
+    height: 20px;
+    width: 20px;
+}
+.personal-patient-second-nav-sub-div-one{
+    display: block;
+}
+.pp-arrow-div{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: aqua;
+}
+
+.pp-arr-w-main-div-two p{
+    font-size: 12px;
+    color: gray;
+}
+
+.personal-patient-second-nav-input-tag{
+    border: 2px solid aqua;
+    border-radius: 25px;
+    width: 300px;
+    padding-left: 35px;
+    height: 40px;
+}
+
+.pp-second-nav-btns-div{
+    border: 2px solid aqua;
+    color: aqua;
+    width: 100px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.personal-patient-second-nav-sub-div-three{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.second-pp-nav-svg-logo-two{
+    height: 25px;
+    width: 25px;
+}

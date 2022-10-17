@@ -15,17 +15,15 @@ const TableHomescreen = () => {
         <div className='table-home-flex-div'>
             <div className='table-home-width-div'>
                 <div>
-                    <Navbar />
+                    <Navbar Name='CARGOZONE' />
                 </div>
 
                 <div>
-                <SecondNavbar onClick={handleViewSidebar} />
-                
+                    <SecondNavbar onClick={handleViewSidebar} />
                 </div>
 
                 <div className='table-home-main-div'>
                     <div className='table-home-sub-div-one'>
-
                         <SideNav isOpen={sidebarOpen} toggleSidebar={handleViewSidebar} />
                     </div>
                     <div className='table-home-sub-div-two'>
