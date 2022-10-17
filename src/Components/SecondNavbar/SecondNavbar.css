@@ -1,0 +1,38 @@
+.second-nav-flex-div{
+    display: flex;
+    justify-content: center;
+    /* height: 50px; */
+}
+
+.second-nav-width-div{
+    width: 100%;
+}
+.second-nav-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-nav-sub-div-one{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.second-nav-sub-div-two{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.reload-img-tag{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.input-field-tag{
+    border: 2px solid aqua;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+}

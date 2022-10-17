@@ -1,0 +1,66 @@
+.table-home-flex-div{
+    display: flex;
+    justify-content: center;
+}
+
+.table-home-width-div{
+    width: 100%;
+}
+
+.table-home-main-div{
+    display: flex;
+}
+
+.table-home-sub-div-one{
+    width: 12%;
+}
+
+.table-home-sub-div-two{
+    width: 88%;
+}
+
+
+
+/* header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: lightcoral;
+  } */
+  .sidebar {
+    width: 12%;
+    position: absolute;
+    /* top: 60px; */
+    left: -15vw;
+    /* height: 100%; */
+    /* width: 15vw; */
+    transition: left 0.3s ease-in-out;
+    /* background-color: lightgray; */
+  }
+  .sidebar-toggle {
+    position: absolute;
+    /* top: 20%;
+    right: -60px;
+    height: 60px;
+    width: 60px; */
+    z-index: 1;
+  }
+  .content {
+    position: absolute;
+    /* top: 60px; */
+    /* left: 0; */
+    /* right: 0; */
+    /* height: 100%; */
+    transition: left 0.3s ease-in-out;
+    /* background-color: lightgray; */
+  }
+  .sidebar.open {
+    left: 0;
+    /* width: 50px; */
+  }
+  .content.open {
+    /* left: 15vw; */
+  }  
+
