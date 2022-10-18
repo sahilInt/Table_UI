@@ -1,0 +1,7 @@
+.main-doughnut-flex-div{
+    display: flex;
+    justify-content: center;
+}
+.main-doughnut-width-div{
+    width: 100%;
+}

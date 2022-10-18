@@ -1,0 +1,24 @@
+.avtar-comp-flex-div{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 100px;
+}
+
+.avtar-comp-width-div{
+    width: 100%;
+}
+
+.avtar-comp-main-div{
+    display: flex;
+    align-items: center;
+}
+
+.avtar-fat-man-svg{
+    height: 100%;
+    width: 100%;
+}
+.avtar-right-arrow-anime-svg{
+    height: 50px;
+    width: 50px;
+}

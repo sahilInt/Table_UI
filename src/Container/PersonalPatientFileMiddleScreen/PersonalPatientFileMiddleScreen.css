@@ -16,7 +16,7 @@
 }
 
 .ppms-main-div-one{
-    width: 70%;
+    width: 100%;
 }
 
 .ppms-main-div-two{
@@ -152,4 +152,37 @@
 .text-area-sub-two-div-one p{
     color: aqua;
     font-weight: 600;
+}
+
+.ppms-full-screen-display-div{
+    display: block;
+    width: 100%;
+}
+
+.ppms-main-screen-div-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.ppms-main-screen-width{
+    width: 100%;
+}
+
+.ppms-main-screen-flex-display{
+    display: flex;
+}
+
+.ppms-main-screen-sub-div-one{
+    width: 33%;
+}
+.ppms-main-screen-sub-div-two{
+    width: 33%;
+}
+.ppms-main-screen-sub-div-three{
+    width: 33%;
+}
+
+.xyz{
+    display: flex;
 }
