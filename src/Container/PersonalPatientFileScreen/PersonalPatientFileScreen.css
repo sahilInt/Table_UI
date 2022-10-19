@@ -15,3 +15,14 @@
 .personal-patient-list-flex-main-div{
     display: flex;
 }
+
+.pwes-pat-main-scr-flex-div{
+    display: flex;
+    justify-content: center;
+}
+.pwes-pat-main-scr-width-div{
+    width: 100%;
+}
+.pwes-pat-main-scr-main-div{
+    display: block;
+}

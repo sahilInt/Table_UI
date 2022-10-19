@@ -20,7 +20,7 @@
 }
 
 .ppms-main-div-two{
-    width: 30%;
+    /* width: 30%; */
     border: 1px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -185,4 +185,67 @@
 
 .xyz{
     display: flex;
+}
+
+.ppms-main-scr-div-three-for-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.ppms-main-scr-div-three-for-width{
+    width: 100%;
+}
+
+.ppms-main-scr-div-three-for-main{
+    border-bottom: 2px solid gray;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.ppms-main-scr-div-three-for-main p{
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.ppms-main-scr-div-four-for-flex{
+    display: flex;
+    justify-content: center;
+}
+.ppms-main-scr-div-four-for-width{
+    width: 100%;
+}
+.ppms-main-scr-div-four-for-main{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.age-and-graph-main-div{
+    display: block;
+}
+
+.age-and-graph-sub-div-one{
+    display: flex;
+    justify-content: center;
+}
+
+.age-and-graph-sub-div-one-div-one{
+    /* width: 50%; */
+}
+.age-and-graph-sub-div-one-div-two{
+    /* width: 50%; */
+}
+
+.doughnut-for-gender-and-age-flex-div{
+    display: flex;
+    justify-content: center;
+}
+
+.doughnut-for-gender-and-age-width-div{
+    width: 100%;
+}
+.doughnut-for-gender-and-age-main-div{
+    display: block;
 }
