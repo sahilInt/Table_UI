@@ -26,6 +26,10 @@
     padding-bottom: 10px;
 }
 
+.ppms-main-div-sub-div-two{
+    padding: 10px;
+}
+
 .ppms-main-div-sub-div-two button{
     border: 2px solid rgb(49,163,214);
     color: rgb(49,163,214);
@@ -62,7 +66,7 @@
 .header-name-in-treat{
     font-size: 30px;
     padding-right: 20px;
-
+    margin-top: -10px;
 }
 
 .treat-ment-sub-parts{

@@ -12,6 +12,7 @@
     padding: 10px;
     gap: 20px;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .public-discussion-div-two-sub-div-two{
@@ -19,8 +20,10 @@
 }
 
 .public-disc-comment-input{
-    width: 400px;
+    width: 600px;
     border: none;
+    padding: 10px;
+    font-size: 16px;
 }
 .public-disc-comment-svg-tag{
     display: flex;
@@ -43,4 +46,59 @@
 .public-disc-edit-svg{
     height: 20px;
     width: 20px;
+}
+
+.public-disc-hexa-svg{
+    /* height: 84px;
+    width: 84px; */
+
+    /* background-image: url("../../SVG/hexagon.png"); */
+    /* background-image: url("https://www.pngfind.com/pngs/m/55-555800_red-hexagon-shape-hd-png-download.png"); */
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.public-disc-hexa-svg p{
+    color: white;
+    text-align: center;
+    line-height: 0;
+    padding-top: 7px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.public-disc-days{
+    color: gray;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.public-disc-auth{
+
+}
+
+.public-disc-cmt-div-one{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 0;
+}
+.public-disc-cmt-div-one h1{
+    color: rgb(58,68,115);
+}
+.public-disc-comment-tag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.public-disc-auth{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(49,163,214);
+    line-height: 0;
 }
