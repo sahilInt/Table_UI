@@ -25,9 +25,13 @@ const PersonalPatientFileScreen = () => {
                     <div className='personal-patient-list-home-flex-div'>
                         <div className='personal-patient-list-width-div'>
                             <div className='personal-patient-list-flex-main-div'>
+                            <div className='personal-patient-list-main-div-two-for-flex-and-display'>
+
                                 <div className='personal-patient-list-main-div-one'>
                                     <SideNav isOpen={sidebarOpen} toggleSidebar={handleViewSidebar} />
                                 </div>
+                                </div>
+                                <div className='personal-patient-list-main-div-two-for-flex-and-display'>
                                 <div className='personal-patient-list-main-div-two'>
                                     <div>
                                         <PPSecondNavbar />
@@ -35,6 +39,7 @@ const PersonalPatientFileScreen = () => {
                                     <div>
                                         <PersonalPatientFileMiddleScreen />
                                     </div>
+                                </div>
                                 </div>
                                 <div>
                                 </div>

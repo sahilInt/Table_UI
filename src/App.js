@@ -3,6 +3,7 @@ import './App.css';
 import TableHomescreen from './Container/TableHomescreen/TableHomescreen';
 import PersonalPatientFileScreen from './Container/PersonalPatientFileScreen/PersonalPatientFileScreen';
 import WeightChart from './Components/WeightChart/WeightChart';
+import LineChart from './Components/LineChart/LineChart';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     
       <TableHomescreen/>
       <WeightChart/>
+      <LineChart/>
     */}
     </div>
   );

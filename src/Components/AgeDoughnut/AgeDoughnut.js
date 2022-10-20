@@ -18,9 +18,9 @@ const AgeDoughnut = () => {
 
     const data = {
         datasets: [{
-            data: [44.3, 55.7, ],
+            data: [44.3, 55.7,0 ],
             backgroundColor: [
-                'yellow', 'blue','grey'
+                'rgb(249,171,1)', 'rgb(26,115,232)','rgb(198,173,254)'
             ]
         },
 

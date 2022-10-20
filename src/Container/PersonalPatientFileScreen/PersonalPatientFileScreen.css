@@ -5,15 +5,21 @@
 .personal-patient-list-width-div{
     width: 100%;
 }
-
+/* .personal-patient-list-main-div-two-for-flex-and-display{
+    display: flex;
+    justify-content: center;
+} */
 .personal-patient-list-main-div-one{
+    /* width: 100%; */
     width: 12%;
 }   
 .personal-patient-list-main-div-two{
-    width: 88%;
+    width: 100%;
+    /* width: 88% */
 }
 .personal-patient-list-flex-main-div{
     display: flex;
+    justify-content: center;
 }
 
 .pwes-pat-main-scr-flex-div{

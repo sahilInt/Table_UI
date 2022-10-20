@@ -33,8 +33,8 @@ const HorizontalAgeGraph = () => {
         datasets: [
             {
                 label: "",
-                backgroundColor: "Aqua",
-                borderColor: "rgba(255,99,132,1)",
+                backgroundColor: "rgb(26,115,232)",
+                // borderColor: "rgba(255,99,132,1)",
                 hoverBackgroundColor: "rgba(255,99,132,0.4)",
                 hoverBorderColor: "rgba(255,99,132,1)",
                 data: [30,40, 25, 20,15 ,10 ]

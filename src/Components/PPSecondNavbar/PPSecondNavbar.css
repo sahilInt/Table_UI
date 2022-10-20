@@ -41,7 +41,7 @@
     align-items: center;
     gap: 10px;
     display: flex;
-    color: aqua;
+    color: rgb(49,163,214);
 }
 
 .pp-arr-w-main-div-two p{
@@ -50,7 +50,7 @@
 }
 
 .personal-patient-second-nav-input-tag{
-    border: 2px solid aqua;
+    border: 2px solid rgb(49,163,214);
     border-radius: 25px;
     width: 300px;
     padding-left: 35px;
@@ -58,8 +58,8 @@
 }
 
 .pp-second-nav-btns-div{
-    border: 2px solid aqua;
-    color: aqua;
+    border: 2px solid rgb(49,163,214);
+    color: rgb(49,163,214);
     width: 100px;
     border-radius: 25px;
     text-align: center;

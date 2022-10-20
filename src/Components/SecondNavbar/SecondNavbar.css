@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     /* height: 50px; */
+    box-shadow: 0 4px 2px 0 rgb(0 0 0 / 20%);
+    margin-bottom: 11px;
 }
 
 .second-nav-width-div{
@@ -32,7 +34,7 @@
 }
 
 .input-field-tag{
-    border: 2px solid aqua;
+    border: 2px solid rgb(49,163,214);
     border-radius: 20px;
     padding: 5px;
     width: 150px;

@@ -27,8 +27,8 @@
 }
 
 .ppms-main-div-sub-div-two button{
-    border: 2px solid aqua;
-    color: aqua;
+    border: 2px solid rgb(49,163,214);
+    color: rgb(49,163,214);
     font-size: 26px;
     background-color: white;
     padding: 15px;
@@ -150,8 +150,9 @@
     display: flex;
 }
 .text-area-sub-two-div-one p{
-    color: aqua;
+    color:rgb(49,163,214) ;
     font-weight: 600;
+
 }
 
 .ppms-full-screen-display-div{
@@ -162,7 +163,7 @@
 .ppms-main-screen-div-two{
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 
 .ppms-main-screen-width{
@@ -171,16 +172,18 @@
 
 .ppms-main-screen-flex-display{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ppms-main-screen-sub-div-one{
-    width: 33%;
+    width: 100%;
 }
 .ppms-main-screen-sub-div-two{
-    width: 33%;
+    width: 100%;
 }
 .ppms-main-screen-sub-div-three{
-    width: 33%;
+    width: 100%;
 }
 
 .xyz{
@@ -213,6 +216,7 @@
 .ppms-main-scr-div-four-for-flex{
     display: flex;
     justify-content: center;
+    margin-bottom: -110px;
 }
 .ppms-main-scr-div-four-for-width{
     width: 100%;
@@ -248,4 +252,36 @@
 }
 .doughnut-for-gender-and-age-main-div{
     display: block;
+}
+
+.ppms-main-scr-div-five-for-flex{
+    display: flex;
+    justify-content: center;
+}
+.ppms-main-scr-div-five-for-width{
+    width: 100%;
+}
+.ppms-main-scr-div-five-for-main{
+    background-color: #80808029;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 125px;
+}
+.ppms-scr-five-sub-one{
+    display: block;
+}
+
+.ppms-scr-five-sub-one-part-one{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    line-height: 1;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.ppms-scr-five-sub-one-part-one p{
+    color: rgb(69,201,154);
+    font-weight: 500;
 }

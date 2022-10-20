@@ -20,7 +20,7 @@ const GenderDoughnut = () => {
         datasets: [{
             data: [68, 32],
             backgroundColor: [
-                'yellow', 'blue'
+                'rgb(249,171,1)', 'rgb(26,115,232)'
             ]
         },
 

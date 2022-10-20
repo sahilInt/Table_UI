@@ -7,6 +7,7 @@ import WeightChart from '../../Components/WeightChart/WeightChart'
 import HorizontalAgeGraph from '../../Components/HorizontalAgeGraph/HorizontalAgeGraph'
 import GenderDoughnut from '../../Components/GenderDoughnut/GenderDoughnut'
 import AgeDoughnut from '../../Components/AgeDoughnut/AgeDoughnut'
+import LineChart from '../../Components/LineChart/LineChart'
 
 const PersonalPatientFileMiddleScreen = () => {
     return (
@@ -70,7 +71,7 @@ const PersonalPatientFileMiddleScreen = () => {
                                         <Avtar />
                                     </div>
                                     <div className='ppms-main-screen-sub-div-three'>
-                                        {/*<WeightChart/>*/}
+                                    <WeightChart />
                                     </div>
                                 </div>
                             </div>
@@ -95,25 +96,66 @@ const PersonalPatientFileMiddleScreen = () => {
                                 <div className='ppms-main-scr-div-four-for-main'>
                                     <div className='age-and-graph-main-div'>
                                         <div className='age-and-graph-sub-div-one'>
-                                            <div className='age-and-graph-sub-div-one-div-one'>Blank Space</div>
-                                            <div className='age-and-graph-sub-div-one-div-two'><HorizontalAgeGraph/></div>
+                                            {/*<div className='age-and-graph-sub-div-one-div-one'>Blank Space</div>*/}
+                                            <div className='age-and-graph-sub-div-one-div-two'><HorizontalAgeGraph /></div>
                                         </div>
                                         <div className='age-and-graph-main-div-two'>Graph</div>
                                     </div>
                                     <div className='doughnut-for-gender-and-age-flex-div'>
-                                    <div className='doughnut-for-gender-and-age-width-div'>
-                                    <div className='doughnut-for-gender-and-age-main-div'>
-                                        <div><GenderDoughnut/></div>
-                                        <div><AgeDoughnut/></div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div>
-                                        Graph
+                                        <div className='doughnut-for-gender-and-age-width-div'>
+                                            <div className='doughnut-for-gender-and-age-main-div'>
+                                                <div><GenderDoughnut /></div>
+                                                <div><AgeDoughnut /></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div>
-                                    TOtal Stories
+                                        <LineChart />
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='ppms-main-scr-div-five-for-flex'>
+                            <div className='ppms-main-scr-div-five-for-width'>
+                                <div className='ppms-main-scr-div-five-for-main'>
+                                    <div className='ppms-scr-five-sub-one'>
+                                        <div className='ppms-scr-five-sub-one-part-one'>
+                                            <h3>Total Stories</h3>
+                                            <h4>7</h4>
+                                            <p>↓ 2.7%</p>
+                                        </div>
+                                        <div className='ppms-scr-five-sub-one-part-one'>
+                                            <h3>Total Stories</h3>
+                                            <h4>7</h4>
+                                            <p>↓ 2.7%</p>
+                                        </div>
+                                    </div>
+                                    <div className='ppms-scr-five-sub-one'>
+                                        <div className='ppms-scr-five-sub-one-part-one'>
+                                            <h3>Total Stories</h3>
+                                            <h4>7</h4>
+                                            <p>↓ 2.7%</p>
+                                        </div>
+                                        <div className='ppms-scr-five-sub-one-part-one'>
+                                            <h3>Total Stories</h3>
+                                            <h4>7</h4>
+                                            <p>↓ 2.7%</p>
+                                        </div>
+                                    </div>
+                                    <div className='ppms-scr-five-sub-one'>
+                                        <div className='ppms-scr-five-sub-one-part-one'>
+                                            <h3>Total Stories</h3>
+                                            <h4>7</h4>
+                                            <p>↓ 2.7%</p>
+                                        </div>
+                                        <div className='ppms-scr-five-sub-one-part-one'>
+                                            <h3>Total Stories</h3>
+                                            <h4>7</h4>
+                                            <p>↓ 2.7%</p>
+                                        </div>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>

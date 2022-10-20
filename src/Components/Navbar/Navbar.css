@@ -1,6 +1,8 @@
 .navbar-flex-div{
     display: flex;
     justify-content: center;
+    box-shadow: 0 4px 2px 0 rgb(0 0 0 / 20%);
+
 }
 
 .navbar-width-div{

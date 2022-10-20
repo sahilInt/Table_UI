@@ -16,7 +16,7 @@ const MainDoughnut = () => {
     datasets: [{
         data: [52.8, 16.9, 7.04,7.02,5.05,5.05,5.05],
         backgroundColor:[
-          'yellow','Pink','Aqua','violet','blue','orange','green','black'
+          'rgb(244,180,0)','rgb(216,89,109)','rgb(42,193,139)','rgb(171,72,188)','rgb(107,198,201)','rgb(255,112,67)','rgb(158,157,35)','black'
         ]
     },
     
@@ -31,7 +31,7 @@ const MainDoughnut = () => {
         'Combo 2',
         'Combo 3',
         'Combo 4',
-        'Combo 5',
+        // 'Combo 5',
     ]
   };
   

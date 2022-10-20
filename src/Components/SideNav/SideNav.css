@@ -1,8 +1,8 @@
 .side-nav-flex-div{
     display: flex;
     justify-content: center;
-    background-color: #1a0144;
-    height: 1100px;
+    background-color: rgb(37,43,74);
+    height: 1351px;
 }
 
 .side-nav-width-div{
