@@ -9,6 +9,7 @@ import GenderDoughnut from '../../Components/GenderDoughnut/GenderDoughnut'
 import AgeDoughnut from '../../Components/AgeDoughnut/AgeDoughnut'
 import LineChart from '../../Components/LineChart/LineChart'
 import PublicDiscussion from '../../Components/PublicDiscussion/PublicDiscussion'
+import StoriesTable from '../../Components/StoriesTable/StoriesTable'
 
 const PersonalPatientFileMiddleScreen = () => {
     return (
@@ -18,6 +19,7 @@ const PersonalPatientFileMiddleScreen = () => {
 
                 <div className='ppms-main-div'>
                     <div className='ppms-full-screen-display-div'>
+
                         <div className='xyz'>
                             <div className='ppms-main-div-one'>
                                 <div className='ppms-top-text-area-main-flex-div'>
@@ -26,30 +28,49 @@ const PersonalPatientFileMiddleScreen = () => {
                                             <div className='ppms-top-text-area-sub-div-one'>
 
                                             </div>
-                                            <div className='ppms-top-text-area-sub-div-two'>
-                                                <div className='text-area-sub-one'>
-                                                    <p>0033454569</p>
-                                                </div>
-                                                <div className='text-area-sub-two'>
-                                                    <div className='text-area-sub-two-div-one'>
-                                                        <p>88.1</p>
-                                                        <h4>BMI</h4>
-                                                    </div>
-                                                    <div className='text-area-sub-two-div-one'>
-                                                        <p>88.1</p>
-                                                        <h4>BMI</h4>
-                                                    </div>
-                                                    <div className='text-area-sub-two-div-one'>
-                                                        <p>88.1</p>
-                                                        <h4>BMI</h4>
-                                                    </div>
-                                                    <div className='text-area-sub-two-div-one'>
-                                                        <p>88.1</p>
-                                                        <h4>BMI</h4>
-                                                    </div>
-                                                    <div className='text-area-sub-two-div-one'>
-                                                        <p>88.1</p>
-                                                        <h4>BMI</h4>
+
+                                            <div className='ppms-top-text-area-sub-div-two-for-flex-width'>
+                                                <div className='ppms-top-text-area-sub-div-two-for-flex'>
+                                                    <div className='ppms-top-text-area-sub-div-two-for-width'>
+                                                        <div className='ppms-top-text-area-sub-div-two'>
+                                                        <div style={{padding:"10px"}}>
+                                                        <div className='text-area-sub-one'>
+                                                        <p>0033454569</p>
+                                                        </div>
+                                                        </div>
+                                                            <div className='text-area-sub-two'>
+                                                                <div className='text-area-sub-two-div-one'>
+                                                                    <div className='div-to-set-text-area'>
+                                                                        <p className='text-area-p-tag'>88.1</p>
+                                                                        <h4>BMI</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div className='text-area-sub-two-div-two'>
+                                                                    <div className='div-to-set-text-area'>
+                                                                        <p className='text-area-p-tag'>88.1</p>
+                                                                        <h4>BMI</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div className='text-area-sub-two-div-three'>
+                                                                    <div className='div-to-set-text-area'>
+                                                                        <p className='text-area-p-tag'>88.1</p>
+                                                                        <h4>BMI</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div className='text-area-sub-two-div-four'>
+                                                                    <div className='div-to-set-text-area-big'>
+                                                                        <p className='text-area-p-tag'>88.1</p>
+                                                                        <h4>BMI</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div className='text-area-sub-two-div-five'>
+                                                                    <div className='div-to-set-text-area-big'>
+                                                                        <p className='text-area-p-tag'>88.1</p>
+                                                                        <h4>BMI</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -113,59 +134,24 @@ const PersonalPatientFileMiddleScreen = () => {
                                     <div>
                                         <LineChart />
                                     </div>
+                                    <div>
+                                        <StoriesTable />
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className='ppms-main-scr-div-five-for-flex'>
                             <div className='ppms-main-scr-div-five-for-width'>
-                                <div className='ppms-main-scr-div-five-for-main'>
-                                    <div className='ppms-scr-five-sub-one'>
-                                        <div className='ppms-scr-five-sub-one-part-one'>
-                                            <h3>Total Stories</h3>
-                                            <h4>7</h4>
-                                            <p>↓ 2.7%</p>
-                                        </div>
-                                        <div className='ppms-scr-five-sub-one-part-one'>
-                                            <h3>Total Stories</h3>
-                                            <h4>7</h4>
-                                            <p>↓ 2.7%</p>
-                                        </div>
-                                    </div>
-                                    <div className='ppms-scr-five-sub-one'>
-                                        <div className='ppms-scr-five-sub-one-part-one'>
-                                            <h3>Total Stories</h3>
-                                            <h4>7</h4>
-                                            <p>↓ 2.7%</p>
-                                        </div>
-                                        <div className='ppms-scr-five-sub-one-part-one'>
-                                            <h3>Total Stories</h3>
-                                            <h4>7</h4>
-                                            <p>↓ 2.7%</p>
-                                        </div>
-                                    </div>
-                                    <div className='ppms-scr-five-sub-one'>
-                                        <div className='ppms-scr-five-sub-one-part-one'>
-                                            <h3>Total Stories</h3>
-                                            <h4>7</h4>
-                                            <p>↓ 2.7%</p>
-                                        </div>
-                                        <div className='ppms-scr-five-sub-one-part-one'>
-                                            <h3>Total Stories</h3>
-                                            <h4>7</h4>
-                                            <p>↓ 2.7%</p>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                {/*<StoriesTable/>*/}
                             </div>
                         </div>
 
 
                         <div className='ppms-main-scr-div-six-for-flex'>
                             <div className='ppms-main-scr-div-six-for-width'>
-                            <PublicDiscussion/>
-                                
+                                <PublicDiscussion />
+
                             </div>
                         </div>
 

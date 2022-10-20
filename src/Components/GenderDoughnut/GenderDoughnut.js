@@ -21,7 +21,8 @@ const GenderDoughnut = () => {
             data: [68, 32],
             backgroundColor: [
                 'rgb(249,171,1)', 'rgb(26,115,232)'
-            ]
+            ],
+            borderWidth:0
         },
 
         ],

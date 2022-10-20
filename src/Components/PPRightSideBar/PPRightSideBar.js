@@ -3,6 +3,8 @@ import Hexagone from "../../SVG/hexagonAqua.svg"
 import DownArrow from "../../SVG/downArrow.svg"
 import Circle from "../../SVG/circle.svg"
 import FilledCircle from "../../SVG/filledCircle.svg"
+import DropdownDownArrow from "../../SVG/download-one.svg"
+import PlaneHexagon from "../../SVG/hexagonopen.svg"
 import "../../Container/PersonalPatientFileMiddleScreen/PersonalPatientFileMiddleScreen.css"
 
 const PPRightSideBar = () => {
@@ -13,14 +15,14 @@ const PPRightSideBar = () => {
                         </div>
                         <div>
                             <div className='treatment-details-main-div-one'>
-                                <div className='hexa-div-in-treat'>
-                                    <img src={Hexagone} alt='' className='hexagone-svg' />
+                                <div className='hexa-div-in-treat-main'>
+                                    <img src={Hexagone} alt='' className='hexagone-svg-main' />
                                 </div>
                                 <div className='header-name-in-treat'>
                                     <h3>Screening</h3>
                                 </div>
                                 <div>
-                                    <img src={DownArrow} alt='' className='down-arrow-svg-in-treat' />
+                                    <img src={DropdownDownArrow} alt='' className='down-arrow-svg-in-treat-one' />
                                 </div>
                             </div>
 
@@ -64,13 +66,13 @@ const PPRightSideBar = () => {
                         <div>
                             <div className='treatment-details-main-div-one'>
                                 <div className='hexa-div-in-treat'>
-                                    <img src={Hexagone} alt='' className='hexagone-svg' />
+                                    <img src={PlaneHexagon} alt='' className='hexagone-svg' />
                                 </div>
                                 <div className='header-name-in-treat'>
                                     <h3>Assessment</h3>
                                 </div>
                                 <div>
-                                    <img src={DownArrow} alt='' className='down-arrow-svg-in-treat' />
+                                    <img src={DropdownDownArrow} alt='' className='down-arrow-svg-in-treat-one' />
                                 </div>
                             </div>
 
@@ -83,7 +85,7 @@ const PPRightSideBar = () => {
                                         <p>Existing Medical Tests</p>
                                     </div>
                                     <div>
-                                        <img src={DownArrow} alt='' className='down-arrow-svg-in-treat' />
+                                        <img src={DropdownDownArrow} alt='' className='down-arrow-svg-in-treat-one' />
                                     </div>
                                 </div>
                                 <div className='treatment-details-main-div-one-sub-one'>
@@ -122,7 +124,7 @@ const PPRightSideBar = () => {
                                         <p>Behaviour Risk</p>
                                     </div>
                                     <div>
-                                        <img src={DownArrow} alt='' className='down-arrow-svg-in-treat' />
+                                        <img src={DropdownDownArrow} alt='' className='down-arrow-svg-in-treat-one' />
                                     </div>
                                 </div>
                                 <div className='treatment-details-main-div-one-sub-one'>
@@ -163,13 +165,13 @@ const PPRightSideBar = () => {
                         <div>
                             <div className='treatment-details-main-div-one'>
                                 <div className='hexa-div-in-treat'>
-                                    <img src={Hexagone} alt='' className='hexagone-svg' />
+                                    <img src={PlaneHexagon} alt='' className='hexagone-svg' />
                                 </div>
                                 <div className='header-name-in-treat'>
                                     <h3>Intervention</h3>
                                 </div>
                                 <div>
-                                    <img src={DownArrow} alt='' className='down-arrow-svg-in-treat' />
+                                    <img src={DropdownDownArrow} alt='' className='down-arrow-svg-in-treat-one' />
                                 </div>
                             </div>
 
