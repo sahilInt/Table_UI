@@ -285,3 +285,18 @@
     color: rgb(69,201,154);
     font-weight: 500;
 }
+
+.ppms-main-scr-div-six-for-flex{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ppms-main-scr-div-six-for-width{
+    width: 100%;
+}
+
+.ppms-main-scr-div-six-for-main{
+    display: block;
+}
+

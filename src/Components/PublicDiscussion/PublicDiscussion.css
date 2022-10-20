@@ -1,0 +1,46 @@
+.public-discussion-div-one p{
+    font-size: 32px;
+    text-align: left;
+    font-weight: 700;
+    color: rgb(58,68,115);
+}
+.public-discussion-div-two{
+    display: flex;
+    /* width: 100%; */
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+
+.public-discussion-div-two-sub-div-two{
+    display: block;
+}
+
+.public-disc-comment-input{
+    width: 400px;
+    border: none;
+}
+.public-disc-comment-svg-tag{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.public-disc-comment-svg-tag p{
+        font-size: 22px;
+        color: rgb(0,140,199);
+        font-weight: 600;
+        line-height: 0.2;
+}
+.smily-symbol{
+    font-size: 38px;
+    color: rgb(0,140,199);
+    line-height: 0;
+    margin: 0;
+}
+.public-disc-edit-svg{
+    height: 20px;
+    width: 20px;
+}

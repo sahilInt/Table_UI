@@ -8,6 +8,7 @@ import HorizontalAgeGraph from '../../Components/HorizontalAgeGraph/HorizontalAg
 import GenderDoughnut from '../../Components/GenderDoughnut/GenderDoughnut'
 import AgeDoughnut from '../../Components/AgeDoughnut/AgeDoughnut'
 import LineChart from '../../Components/LineChart/LineChart'
+import PublicDiscussion from '../../Components/PublicDiscussion/PublicDiscussion'
 
 const PersonalPatientFileMiddleScreen = () => {
     return (
@@ -71,7 +72,7 @@ const PersonalPatientFileMiddleScreen = () => {
                                         <Avtar />
                                     </div>
                                     <div className='ppms-main-screen-sub-div-three'>
-                                    <WeightChart />
+                                        <WeightChart />
                                     </div>
                                 </div>
                             </div>
@@ -155,8 +156,16 @@ const PersonalPatientFileMiddleScreen = () => {
                                             <p>↓ 2.7%</p>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
+                            </div>
+                        </div>
+
+
+                        <div className='ppms-main-scr-div-six-for-flex'>
+                            <div className='ppms-main-scr-div-six-for-width'>
+                            <PublicDiscussion/>
+                                
                             </div>
                         </div>
 
