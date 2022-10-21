@@ -11,6 +11,7 @@ import LineChart from '../../Components/LineChart/LineChart'
 import PublicDiscussion from '../../Components/PublicDiscussion/PublicDiscussion'
 import StoriesTable from '../../Components/StoriesTable/StoriesTable'
 import PPSecondNavbar from '../../Components/PPSecondNavbar/PPSecondNavbar'
+import RightCollapsibleSidebar from '../../Components/RightCollapsibleSidebar/RightCollapsibleSidebar'
 
 const PersonalPatientFileMiddleScreen = () => {
     return (
@@ -160,8 +161,8 @@ const PersonalPatientFileMiddleScreen = () => {
                     </div>
 
 
-
-                    <PPRightSideBar />
+                    <RightCollapsibleSidebar/>
+    {/*<PPRightSideBar />*/}
                 </div>
 
 
