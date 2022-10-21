@@ -10,6 +10,9 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .personal-patient-second-nav-sub-div-one{
     display: flex;

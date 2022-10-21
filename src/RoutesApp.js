@@ -7,6 +7,7 @@ import Dashboard from './Components/Pages/Dashboard'
 import Product from './Components/Pages/Product'
 import ProductList from './Components/Pages/ProductList'
 import Sidebar from './Components/Sidebar/Sidebar'
+import PersonalPatientFileScreen from './Container/PersonalPatientFileScreen/PersonalPatientFileScreen'
 
 const RoutesApp = () => {
   return (
@@ -15,7 +16,7 @@ const RoutesApp = () => {
         <Routes>
             <Route path='' element={<Dashboard/>}/>
             <Route path='/dashboard' element={<Dashboard/>}/>
-            <Route path='/about' element={<About/>}/>
+            <Route path='/about' element={<PersonalPatientFileScreen/>}/>
             <Route path='/analytics' element={<Analytics/>}/>
             <Route path='/comment' element={<Comment/>}/>
             <Route path='/product' element={<Product/>}/>

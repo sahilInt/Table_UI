@@ -5,6 +5,7 @@ import SideNav from '../../Components/SideNav/SideNav'
 import "./PersonalPatientFileScreen.css"
 import PPSecondNavbar from '../../Components/PPSecondNavbar/PPSecondNavbar'
 import PersonalPatientFileMiddleScreen from '../PersonalPatientFileMiddleScreen/PersonalPatientFileMiddleScreen'
+import CollapsibleSIdebarRoutes from '../../Routes/CollapsibleSIdebarRoutes/CollapsibleSIdebarRoutes'
 
 const PersonalPatientFileScreen = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -19,10 +20,10 @@ const PersonalPatientFileScreen = () => {
                     <div className='top-navbars-width-div'>
                     <div className='top-navbars-main-div'>
                         <div>
-                            <Navbar Name='SK-PHARMA' />
+    {/*<Navbar Name='SK-PHARMA' />*/}
                         </div>
                         <div>
-                            <SecondNavbar onClick={handleViewSidebar} />
+    {/*<SecondNavbar onClick={handleViewSidebar} />*/}
                         </div>
                     </div>
                     </div>
@@ -34,7 +35,7 @@ const PersonalPatientFileScreen = () => {
                                 <div className='personal-patient-list-main-div-two-for-flex-and-display'>
 
                                     <div className='personal-patient-list-main-div-one'>
-                                        <SideNav isOpen={sidebarOpen} toggleSidebar={handleViewSidebar} />
+    {/*<SideNav isOpen={sidebarOpen} toggleSidebar={handleViewSidebar} />*/}
                                     </div>
                                 </div>
                                 <div className='personal-patient-list-main-div-two-for-flex-and-display'>

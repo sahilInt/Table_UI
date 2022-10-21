@@ -10,6 +10,7 @@ import AgeDoughnut from '../../Components/AgeDoughnut/AgeDoughnut'
 import LineChart from '../../Components/LineChart/LineChart'
 import PublicDiscussion from '../../Components/PublicDiscussion/PublicDiscussion'
 import StoriesTable from '../../Components/StoriesTable/StoriesTable'
+import PPSecondNavbar from '../../Components/PPSecondNavbar/PPSecondNavbar'
 
 const PersonalPatientFileMiddleScreen = () => {
     return (
@@ -20,13 +21,17 @@ const PersonalPatientFileMiddleScreen = () => {
                 <div className='ppms-main-div'>
                     <div className='ppms-full-screen-display-div'>
 
+                    <div>
+                    <PPSecondNavbar/>
+                    </div>
+
                         <div className='xyz'>
                             <div className='ppms-main-div-one'>
                                 <div className='ppms-top-text-area-main-flex-div'>
                                     <div className='ppms-top-text-area-main-width-div'>
                                         <div className='ppms-top-text-area-main-div'>
                                             <div className='ppms-top-text-area-sub-div-one'>
-
+                                                    
                                             </div>
 
                                             <div className='ppms-top-text-area-sub-div-two-for-flex-width'>
@@ -141,11 +146,7 @@ const PersonalPatientFileMiddleScreen = () => {
                             </div>
                         </div>
 
-                        <div className='ppms-main-scr-div-five-for-flex'>
-                            <div className='ppms-main-scr-div-five-for-width'>
-                                {/*<StoriesTable/>*/}
-                            </div>
-                        </div>
+
 
 
                         <div className='ppms-main-scr-div-six-for-flex'>

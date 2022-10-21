@@ -22,27 +22,27 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/about",
-            name:"About",
+            name:"Doctor Visit",
             icon:<FaUserAlt/>
         },
         {
             path:"/analytics",
-            name:"Analytics",
+            name:"Medical History",
             icon:<FaRegChartBar/>
         },
         {
             path:"/comment",
-            name:"Comment",
+            name:"Personal Patient File",
             icon:<FaCommentAlt/>
         },
         {
             path:"/product",
-            name:"Product",
+            name:"Patient List",
             icon:<FaShoppingBag/>
         },
         {
             path:"/productList",
-            name:"Product List",
+            name:"Admin",
             icon:<FaThList/>
         }
     ]
