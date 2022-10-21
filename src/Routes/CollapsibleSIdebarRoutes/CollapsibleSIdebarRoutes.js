@@ -19,12 +19,15 @@ const CollapsibleSIdebarRoutes = () => {
       <Sidebar>
         <Routes>
           <Route path='' element={<Dashboard />} />
+          {/*<Route path='/patientlist' element={<TableHomescreen/>} />*/}
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/about' element={<PersonalPatientFileMiddleScreen />} />
           <Route path='/analytics' element={<Analytics />} />
           <Route path='/comment' element={<Comment />} />
           <Route path='/product' element={<Product />} />
           <Route path='/productlist' element={<ProductList />} />
+          <Route path='/productlist' element={<ProductList />} />
+          <Route path='/rightsidebar' element={<RightCollapsibleSidebar />} />
         </Routes>
       </Sidebar>
     </BrowserRouter>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import './PPSecondNavbar.css'
 import LeftArrow from "../../SVG/leftArrow.svg"
 import Refresh from "../../SVG/refresh.svg"
@@ -38,7 +39,7 @@ const PPSecondNavbar = () => {
                                 <img src={Refresh} className="second-pp-nav-svg-logo-two" alt='' />
                             </div>
                             <div>
-                                <img src={Menu} className="second-pp-nav-svg-logo-two" alt='' />
+                            <img src={Menu} className="second-pp-nav-svg-logo-two" alt=''/>
                             </div>
                         </div>
                     </div>

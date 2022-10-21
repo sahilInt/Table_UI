@@ -9,14 +9,17 @@
 
 .table-home-main-div{
     display: flex;
+    justify-content: center;
 }
-
+.table-home-main-div-for-width{
+  width: 100%;
+}
 .table-home-sub-div-one{
     width: 12%;
 }
 
 .table-home-sub-div-two{
-    width: 88%;
+    width: 100%;
 }
 
 
