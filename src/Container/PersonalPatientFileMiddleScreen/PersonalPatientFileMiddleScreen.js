@@ -33,11 +33,11 @@ const PersonalPatientFileMiddleScreen = () => {
                                                 <div className='ppms-top-text-area-sub-div-two-for-flex'>
                                                     <div className='ppms-top-text-area-sub-div-two-for-width'>
                                                         <div className='ppms-top-text-area-sub-div-two'>
-                                                        <div style={{padding:"10px"}}>
-                                                        <div className='text-area-sub-one'>
-                                                        <p>0033454569</p>
-                                                        </div>
-                                                        </div>
+                                                            <div style={{ padding: "10px" }}>
+                                                                <div className='text-area-sub-one'>
+                                                                    <p>0033454569</p>
+                                                                </div>
+                                                            </div>
                                                             <div className='text-area-sub-two'>
                                                                 <div className='text-area-sub-two-div-one'>
                                                                     <div className='div-to-set-text-area'>

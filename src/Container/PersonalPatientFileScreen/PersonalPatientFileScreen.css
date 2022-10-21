@@ -9,6 +9,17 @@
     display: flex;
     justify-content: center;
 } */
+
+.top-navbars-flex-div{
+    display: flex;
+    justify-content: center;
+}
+.top-navbars-width-div{
+    width: 100%;
+}
+.top-navbars-main-div{
+    display: block;
+}
 .personal-patient-list-main-div-one{
     /* width: 100%; */
     width: 12%;

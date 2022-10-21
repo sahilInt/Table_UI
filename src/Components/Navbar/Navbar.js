@@ -8,24 +8,24 @@ const Navbar = (props) => {
     return (
         <div className='navbar-flex-div'>
             <div className='navbar-width-div'>
-            <div className='navbar-main-div'>
-            <div className='navbar-sub-div-one'>
-                
-                <h3>{props.Name}</h3>
+                <div className='navbar-main-div'>
+                    <div className='navbar-sub-div-one'>
+
+                        <h3>{props.Name}</h3>
+                    </div>
+                    <div className='navbar-sub-div-two'>
+                        <div>
+                            <img src={Direction} className="nav-svg-icon" alt='' />
+                        </div>
+                        <div>
+                            <img src={Bag} className="nav-svg-icon" alt='' />
+                        </div>
+                        <div>
+                            <img src={Notification} className="nav-svg-icon" alt='' />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='navbar-sub-div-two'>
-            <div>
-            <img src={Direction} className="nav-svg-icon" alt=''/>
-            </div>
-            <div>
-            <img src={Bag} className="nav-svg-icon" alt=''/>
-            </div>
-            <div>
-            <img src={Notification} className="nav-svg-icon" alt=''/>
-            </div>
-            </div>
-            </div>
-        </div>
         </div>
     )
 }
