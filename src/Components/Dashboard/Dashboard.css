@@ -1,0 +1,111 @@
+.dahs-board-flex-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.dahs-board-width-div{
+    width: 100%;
+}
+.dahs-board-main-div{
+    display: block;
+}
+.dash-board-main-div-for-flex{
+    display: block;
+}
+
+.dahs-board-sub-div-one h4{
+    color:rgb(107,120,156);
+}
+.dahs-board-sub-div-one p{
+    color:rgb(107,120,156);
+    font-size: 14px;
+}
+.dahs-board-sub-div-two {
+    display: flex;
+    justify-content: center;
+}
+.dahs-board-sub-div-two-width{
+    width: 100%;
+    display: flex;
+    column-gap: 14px;
+    padding-top: 20px;
+}
+
+.dahs-board-sub-div-two-part-one{
+    display: block;
+    padding-top: 12px;
+}
+.sub-two-card-one{
+    /* width: 100%; */
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 205px;
+    height: 87px;
+}
+.sub-two-card-one h4{
+    padding-top: 20px;
+}
+.sub-two-card-two{
+    /* width: 100%; */
+    margin-top: 31px;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* width: 205px; */
+    height: 87px;
+}
+.sub-two-card-two h4{
+    padding-top: 24px;
+}
+
+.sub-two-card-two-alerts{
+    margin-top: 31px;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgb(244, 3, 3) 0px 5px 15px;
+    border: 1px solid rgb(244 3 3);
+    /* width: 205px; */
+    height: 87px;
+}
+.critical-alerts-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding-top: 24px;
+}
+.sub-two-card-two-warning{
+    margin-top: 31px;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(244 188 3);
+    box-shadow: rgb(244, 188, 3) 0px 5px 15px;
+    /* width: 205px; */
+    height: 87px;
+}
+.card-para-tag{
+    font-size: 13px;
+}
+.sub-two-card-one-full{
+ padding: 15px;
+ border-radius: 5px;
+ justify-content: center;
+ text-align: center;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ width: 135px;
+ /* height: 197px; */
+ height: 239px;
+}
+
+.dahs-board-main-div-two{
+    padding-top: 25px;
+}

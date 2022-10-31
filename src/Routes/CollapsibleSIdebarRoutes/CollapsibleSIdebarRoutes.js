@@ -3,7 +3,7 @@ import "./CollapsibleSIdebarRoutes.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Analytics from '../../Components/Pages/Analytics'
 import Comment from '../../Components/Pages/Comment'
-import Dashboard from '../../Components/Pages/Dashboard'
+import Dashboard from '../../Components/Dashboard/Dashboard'
 import Product from '../../Components/Pages/Product'
 import ProductList from '../../Components/Pages/ProductList'
 import Sidebar from '../../Components/Sidebar/Sidebar'
