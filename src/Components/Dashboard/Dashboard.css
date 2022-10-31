@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 10px;
+    padding-left: 15px;
 }
 .dahs-board-width-div{
     width: 100%;
@@ -15,6 +16,7 @@
 
 .dahs-board-sub-div-one h4{
     color:rgb(107,120,156);
+    padding-bottom: 10px;
 }
 .dahs-board-sub-div-one p{
     color:rgb(107,120,156);
@@ -33,7 +35,7 @@
 
 .dahs-board-sub-div-two-part-one{
     display: block;
-    padding-top: 12px;
+    padding-top: 1px;
 }
 .sub-two-card-one{
     /* width: 100%; */
@@ -50,7 +52,7 @@
 }
 .sub-two-card-two{
     /* width: 100%; */
-    margin-top: 31px;
+    margin-top: 41px;
     padding: 15px;
     border-radius: 5px;
     justify-content: center;
@@ -64,7 +66,7 @@
 }
 
 .sub-two-card-two-alerts{
-    margin-top: 31px;
+    margin-top: 41px;
     padding: 15px;
     border-radius: 5px;
     justify-content: center;
@@ -82,7 +84,7 @@
     padding-top: 24px;
 }
 .sub-two-card-two-warning{
-    margin-top: 31px;
+    margin-top: 41px;
     padding: 15px;
     border-radius: 5px;
     justify-content: center;
@@ -103,9 +105,23 @@
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  width: 135px;
  /* height: 197px; */
- height: 239px;
+ height: 247px;
 }
 
 .dahs-board-main-div-two{
-    padding-top: 25px;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.dahs-board-main-div-two-sub-one{
+    border: 1px solid rgb(187,187,187);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.dahs-board-sub-div-two-part-two{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
