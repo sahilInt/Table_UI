@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import "./TreatmentSuccessRateDoughnut.css"
 import { PieChart, Pie, Legend , Label,ResponsiveContainer} from "recharts";
 
 const data = [
@@ -16,7 +17,7 @@ const data = [
 
 const TreatmentSuccessRateDoughnut = () => {
   return (
-    <ResponsiveContainer width={303} height={300}>
+    <ResponsiveContainer width={303} height={300} className="chart-resp-cont">
     <PieChart >
         
         <Pie

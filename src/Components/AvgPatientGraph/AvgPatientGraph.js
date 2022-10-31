@@ -18,48 +18,49 @@ const data = [
         pv: 125,
     },
     {
-        name: "FEB",
+        name: "Feb",
         pv: 155,
     },
     {
-        name: "MAR",
+        name: "Mar",
         pv: 190,
     },
     {
-        name: "APR",
+        name: "Apr",
         pv: 80,
     },
     {
-        name: "MAY",
+        name: "May",
         pv: 125,
     },
     {
-        name: "JUN",
+        name: "Jun",
         pv: 180,
     },
     {
-        name: "JUL",
+        name: "Jul",
         pv: 130,
     },
     {
-        name: "AUG",
+        name: "Aug",
         pv: 140,
     },
     {
-        name: "SEPT",
+        name: "Sept",
         pv: 100,
     },
     {
-        name: "OCT",
+        name: "Oct",
         pv: 200,
+        fill:"rgb(33,186,255)",
     },
     {
-        name: "NOV",
-        pv: 190,
+        name: "Nov",
+        // pv: 190,
     },
     {
-        name: "DEC",
-        pv: 160,
+        name: "Dec",
+        // pv: 160,
     }
 ];
 
@@ -79,8 +80,7 @@ const AvgPatientGraph = () => {
             >
                 <XAxis dataKey="name" />
                 <YAxis />
-                <Tooltip />
-                <Bar dataKey="pv" fill="rgb(133,217,255)" />
+                <Bar dataKey="pv" fill="rgb(133,217,255)"  />
 
             </BarChart>
         </ResponsiveContainer>

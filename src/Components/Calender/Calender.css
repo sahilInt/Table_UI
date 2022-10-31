@@ -29,7 +29,10 @@
   .react-calendar button {
     margin: 0;
     border: 0;
+    font-size: 12px;
     outline: none;
+    /* line-height: 0.7; */
+    /* padding: 12px; */
   }
   .react-calendar button:enabled:hover {
     cursor: pointer;

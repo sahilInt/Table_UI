@@ -1,8 +1,12 @@
 import React from 'react'
 import './Navbar.css'
 import Notification from "../../SVG/notification.svg"
-import Direction from "../../SVG/direction.svg"
 import Bag from "../../SVG/bag.svg"
+
+import { GiDirectionSign } from "react-icons/gi";
+import { BsFillBagCheckFill, BsBell } from "react-icons/bs";
+import { FaAngleDown } from "react-icons/fa";
+
 
 const Navbar = (props) => {
     return (
@@ -14,15 +18,35 @@ const Navbar = (props) => {
                         <h3>{props.Name}</h3>
                     </div>
                     <div className='navbar-sub-div-two'>
-                        <div>
-                            <img src={Direction} className="nav-svg-icon" alt='' />
+                        <div className='nav-symb-div'>
+                            <GiDirectionSign style={{ height: "20px", width: "20px", color: "rgb(0,138,201)", cursor: "pointer" }} />
+                            {/*<img src={Direction} className="nav-svg-icon" alt='' />*/}
                         </div>
-                        <div>
-                            <img src={Bag} className="nav-svg-icon" alt='' />
+                        <div className='nav-symb-div'>
+                            <BsFillBagCheckFill style={{ height: "20px", width: "20px", color: "rgb(0,138,201)", cursor: "pointer" }} />
+                            {/*<img src={Bag} className="nav-svg-icon" alt='' />*/}
                         </div>
-                        <div>
-                            <img src={Notification} className="nav-svg-icon" alt='' />
+                        <div className='nav-symb-div'>
+                            <BsBell style={{ height: "20px", width: "20px", color: "rgb(0,138,201)", cursor: "pointer" }} />
+                            {/*<img src={Notification} className="nav-svg-icon" alt='' />*/}
                         </div>
+                        <div className='user-img-in-nav'>
+                            <div>
+                                <img src='https://img.freepik.com/premium-vector/user-icon_126283-435.jpg?w=2000' className='user-img-tag-in-nav-bar' />
+                            </div>
+                            <div class="dropdown">
+                            <FaAngleDown style={{ color: "rgb(0,138,201)", cursor: "pointer" }} />
+                            <span></span>
+                            <div>
+                            <div class="dropdown-content">
+                            <p>Account Setting</p>
+                            <p>User Profile</p>
+                            <p>Log Out!</p>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
