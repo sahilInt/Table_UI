@@ -112,16 +112,56 @@
     padding-top: 40px;
     display: flex;
     gap: 20px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .dahs-board-main-div-two-sub-one{
     border: 1px solid rgb(187,187,187);
     border-radius: 20px;
     padding: 15px;
+    padding-right: 2px;
 }
 
 .dahs-board-sub-div-two-part-two{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+}
+
+.recent-activity-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    padding-top: 20px;
+}
+.recent-activity-sub-div-one{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.recent-activity-sub-div-one-part-two{
+    display: block;
+}
+
+.recent-activity-sub-div-two{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-img-in-recent-activity{
+    height: 25px;
+    width: 25px;
+}
+.recent-activity-sub-div-one-part-two p{
+    font-size: 10px;
+    color: rgb(171,171,171);
+}
+.recent-activity-sub-div-one-part-two h4{
+    font-size: 12px;
+}
+
+.recent-activity-sub-div-two p{
+    font-size: 10px;
+    color: rgb(171,171,171);
 }

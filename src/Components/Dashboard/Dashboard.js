@@ -3,9 +3,11 @@ import "./Dashboard.css"
 import { GoAlert } from "react-icons/go";
 import { AiFillExclamationCircle } from "react-icons/ai";
 import { FaUserAlt } from "react-icons/fa";
+import { BsThreeDotsVertical } from "react-icons/bs";
 import Calender from '../Calender/Calender';
 import AvgPatientGraph from '../AvgPatientGraph/AvgPatientGraph';
 import TreatmentSuccessRateDoughnut from '../TreatmentSuccessRateDoughnut/TreatmentSuccessRateDoughnut';
+import RecentActivityUser from '../RecentActivityUser/RecentActivityUser';
 
 const Dashboard = () => {
     return (
@@ -77,15 +79,23 @@ const Dashboard = () => {
                     </div>
 
                     <div className='dahs-board-main-div-two'>
-                    <div className='dahs-board-main-div-two-sub-one'>
-                    <h4 style={{textAlign:'center'}}>Average Patient Visits</h4>
-                    <AvgPatientGraph/></div>
-                    <div className='dahs-board-main-div-two-sub-one'>
-                    <h4 style={{textAlign:'center'}}>Treatment Success Rate</h4>
-                    <TreatmentSuccessRateDoughnut/>
-                    </div>
-                    <div className='dahs-board-main-div-two-sub-one'>Link</div>
+                        <div className='dahs-board-main-div-two-sub-one'>
+                            <h4 style={{ textAlign: 'center', paddingBottom: '40px' }}>Average Patient Visits</h4>
+                            <AvgPatientGraph /></div>
+                        <div className='dahs-board-main-div-two-sub-one'>
+                            <h4 style={{ textAlign: 'center' }}>Treatment Success Rate</h4>
+                            <TreatmentSuccessRateDoughnut />
+                        </div>
+                        <div className='dahs-board-main-div-two-sub-one'>
+                            <h4 style={{ textAlign: 'left' }}>Recent Activity</h4>
 
+                            <RecentActivityUser/>
+                            <RecentActivityUser/>
+                            <RecentActivityUser/>
+                            <RecentActivityUser/>
+                            <RecentActivityUser/>
+                            <RecentActivityUser/>
+                        </div>
                     </div>
                 </div>
             </div>

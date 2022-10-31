@@ -65,7 +65,7 @@ const data = [
 
 const AvgPatientGraph = () => {
     return (
-        <ResponsiveContainer  width={520} height={300} margin-left={-27}>
+        <ResponsiveContainer  width={545} height={250} margin-left={-27}>
             <BarChart
                 // width={590}
                 // height={300}
