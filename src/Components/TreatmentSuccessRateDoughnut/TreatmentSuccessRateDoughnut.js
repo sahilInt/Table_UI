@@ -30,6 +30,8 @@ const TreatmentSuccessRateDoughnut = () => {
           paddingAngle={0}
           dataKey="value"
           align="center"
+          stroke='none'
+
         >,
         <Label value="80% Success" position="center"/>
             

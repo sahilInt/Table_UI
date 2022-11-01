@@ -1,0 +1,385 @@
+.health-overview-flex-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.health-overview-width-div{
+    width: 100%;
+}
+
+.health-overview-main-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.health-overview-sub-div-one-part-one{
+    display: block;
+}
+
+.health-overview-sub-one-title p{
+    font-size: 12px;
+    color: rgb(170,170,170);
+}
+
+.health-overview-sub-one-flex{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.health-overview-sub-one-flex p{
+    color: rgb(170,170,170);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.medical-history-section-main-div{
+    display: flex;
+    padding-top: 33px;
+    gap: 12px;
+    /* justify-content: center; */
+}
+
+.blood-sugar-card{
+    display: flex;
+    justify-content: center;
+    /* padding: 15px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 6px;
+    padding-right: 7px;
+
+    padding-bottom: 35px;
+    padding-left: 4px;
+    padding-top: 7px;
+    border-radius: 5px;
+    align-items: baseline;
+}
+.blood-sugar-card-last{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 6px;
+    padding-bottom: 35px;
+    padding-left: 4px;
+    padding-top: 7px;
+    border-radius: 5px;
+    align-items: baseline;
+    padding-right: 7px;
+    height: 70px;
+}
+
+.card-logo-in-medical-history{
+    padding: 5px;
+    background-color: rgb(49,163,214);
+    border-radius: 10px;
+    height: 27px;
+    width: 25px;
+}
+.card-logo-in-medical-history-heart{
+    padding: 5px;
+    background-color: rgb(244,180,0);
+    border-radius: 10px;
+    height: 27px;
+    width: 25px;
+    justify-content: center;
+}
+.card-logo-in-medical-history-blood{
+    padding: 5px;
+    background-color: rgb(211,68,91);
+    border-radius: 10px;
+    height: 27px;
+    width: 25px;
+    justify-content: center;
+}
+.card-logo-in-medical-history-drugs{
+    padding: 5px;
+    background-color: rgb(91,148,233);
+    border-radius: 10px;
+    height: 27px;
+    width: 25px;
+    justify-content: center;
+}
+.card-detail-div-main-for-flex{
+    display: flex;
+    /* padding-top: 10px; */
+    gap: 2px;
+    align-items: center;
+}
+.card-detail-div-main{
+    display: block;
+}
+
+.card-detail-div-sub{
+    display: flex;
+    gap: 4px;
+}
+.card-detail-div-main h5{
+    font-size: 12px;
+    font-weight: 500;
+}
+.card-detail-div-sub h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+.card-detail-div-sub-three h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+.card-detail-div-sub p{
+    color: rgb(170,170,170);
+    font-size: 10px;
+}
+.nor-btn{
+    background-color: rgb(49,163,214);
+    border: none;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    width: 50px;
+}
+.nor-btn-heart{
+    background-color: rgb(244,180,0);
+    border: none;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    width: 50px;
+}
+.nor-btn-blood{
+    background-color: rgb(211,68,91);
+    border: none;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+
+.health-overview-sub-div-two{
+    background-color: rgb(236,249,255);
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-right: 3px;
+}
+
+
+.pheno-title-main h5{
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 37px;
+}
+
+.pateient-main-div{
+    display: flex;
+    /* gap: 5px; */
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 40px; */
+}
+.patient-img-name-div{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.patient-img-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+
+.patient-info-main-div{
+    display: block;
+    width: 118px;
+}
+
+.patient-info-main-div p{
+    font-size: 10px;
+}
+.patient-info-main-div h4{
+    font-size: 14px;
+}
+
+.dropdown-in-patient-details {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-in-patient-details {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 0px;
+    left: auto;
+    cursor: pointer;
+  }
+  
+  .dropdown-in-patient-details:hover .dropdown-content-in-patient-details {
+    display: block;
+  }
+
+  .patient-last-week-btn{
+    display: flex;
+    width: 95px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    gap: 5px;
+  }
+  .week-section-main-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .week-section-sub-div-one{
+    display: block;
+  }
+
+  .week-para{
+    font-size: 12px;
+  }
+
+  .bmi-div-btn{
+    border: 1px solid rgb(111,191,227);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .pheno-drill-doughnut-main-div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* margin-top:20px; */
+    width: 70%;
+  }
+
+  .pheno-div-section-tag{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+
+  .pheno-drill-sub-sec-two{
+    display: block;
+    padding-right: 30px;
+  }
+
+  .card-logo-in-contra-diction{
+    padding: 5px;
+    background-color: rgb(255,37,37);
+    border-radius: 10px;
+    height: 27px;
+    width: 25px;
+    justify-content: center;
+  }
+
+  .card-first-sec-div{
+    display: flex;
+    gap: 10px;
+  }
+
+  .blood-sugar-card-in-pheno{
+    display: block;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 6px;
+    padding-bottom: 35px;
+    padding-left: 4px;
+    padding-top: 7px;
+    border-radius: 5px;
+  }
+  .blood-sugar-card-in-pheno-two{
+    display: block;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 6px;
+    padding-bottom: 35px;
+    padding-left: 4px;
+    padding-top: 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .contra-dic-text h2{
+    text-align: center;
+  }
+
+  .stages-treat-main-div-card{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 35px;
+    margin-top: 25px;
+  }
+
+  .stages-treat-sub-one{
+    display: block;
+    text-align: center;
+  }
+
+  .stages-treat-sub-one-sec-one{
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    height: 35px;
+    width: 35px;
+    margin-left: 13px;
+  }
+
+  .stages-treat-sub-one-sec-one-three{
+    background-color: rgb(174,205,234);
+    border-radius: 25px;
+    color: white;
+    height: 35px;
+    width: 35px;
+    margin-left: 13px;
+  }
+
+  .stages-treat-sub-one-sec-one p{
+    padding-top: 6px;
+  }
+  .stages-treat-sub-one-sec-one-three p{
+    padding-top: 6px;
+  }
+  .stages-treat-sub-one-sec-two p{
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .weight-forcast-graph-div{
+    margin-top: 20px;
+    border: 1px solid;
+  }
+
+  .chart-section-main-div{
+    padding-top: 20px;
+  }
+
+  .chart-section-main-div-last{
+    padding-top: 20px;
+  }
+
+  .chart-section-main-div-last h4{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .chart-section-main-div-last p{
+    font-size: 12px;
+    color: rgb(170,170,170);
+  }

@@ -31,7 +31,7 @@ const Sidebar = ({children}) => {
             icon:<FaRegChartBar/>
         },
         {
-            path:"/patientlist",
+            path:"/personalpatientpage",
             name:"Personal Patient File",
             icon:<FaCommentAlt/>
         },

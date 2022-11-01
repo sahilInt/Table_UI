@@ -35,18 +35,18 @@ const Navbar = (props) => {
                                 <img src='https://img.freepik.com/premium-vector/user-icon_126283-435.jpg?w=2000' className='user-img-tag-in-nav-bar' />
                             </div>
                             <div class="dropdown">
-                            <FaAngleDown style={{ color: "rgb(0,138,201)", cursor: "pointer" }} />
-                            <span></span>
-                            <div>
-                            <div class="dropdown-content">
-                            <p>Account Setting</p>
-                            <p>User Profile</p>
-                            <p>Log Out!</p>
-                            </div>
+                                <FaAngleDown style={{ color: "rgb(0,138,201)", cursor: "pointer" }} />
+                                <span></span>
+                                <div>
+                                    <div class="dropdown-content">
+                                        <p>Account Setting</p>
+                                        <p>User Profile</p>
+                                        <p>Log Out!</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
-                       
+
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@ import "./CollapsibleSIdebarRoutes.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Analytics from '../../Components/Pages/Analytics'
 import Comment from '../../Components/Pages/Comment'
+import PersonalPatientFile from '../../Components/PersonalPatientFile/PersonalPatientFile'
 import Dashboard from '../../Components/Dashboard/Dashboard'
 import Product from '../../Components/Pages/Product'
 import ProductList from '../../Components/Pages/ProductList'
@@ -23,7 +24,7 @@ const CollapsibleSIdebarRoutes = () => {
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/about' element={<PersonalPatientFileMiddleScreen />} />
           <Route path='/analytics' element={<Analytics />} />
-          <Route path='/comment' element={<Comment />} />
+          <Route path='/personalpatientpage' element={<PersonalPatientFile />} />
           <Route path='/product' element={<Product />} />
           <Route path='/productlist' element={<ProductList />} />
           <Route path='/productlist' element={<ProductList />} />
