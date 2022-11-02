@@ -12,13 +12,13 @@ const data = [
 
 const PhenotypeDrilldownDoughnut = () => {
     return (
-        <ResponsiveContainer width={303} height={300} className="chart-resp-cont-in-pheno">
+        <ResponsiveContainer width={303} height={319} className="chart-resp-cont-in-pheno">
             <PieChart >
 
                 <Pie
                     data={data}
-                    cx={120}
-                    cy={200}
+                    cx={100}
+                    cy={180}
                     innerRadius={40}
                     outerRadius={90}
                     fill="#8884d8"
@@ -29,7 +29,7 @@ const PhenotypeDrilldownDoughnut = () => {
                     className='pie-in-phno'
                 >
                 </Pie>
-            <Legend/>
+            <Legend verticalAlign='top' align='left' height={1}/>
 
             </PieChart>
         </ResponsiveContainer>

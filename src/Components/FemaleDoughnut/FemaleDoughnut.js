@@ -1,10 +1,11 @@
-import React, { PureComponent } from 'react'
-import "./TreatmentSuccessRateDoughnut.css"
+import React from 'react'
+import "./FemaleDoughnut.css"
+
 import { PieChart, Pie, Legend , Label,ResponsiveContainer} from "recharts";
 
 const data = [
-    { name: "Group D", value: 20, fill: "rgb(161,161,161)" },
-    { name: "Group C", value: 80, fill: "rgb(188,192,45)" },
+    { name: "Group D", value: 50, fill: "rgb(245,220,148)" },
+    { name: "Group C", value: 50, fill: "rgb(238,175,0)" },
   ];
   
   const renderColorfulLegendText = (value) => {
@@ -15,25 +16,27 @@ const data = [
     );
   };
 
-const TreatmentSuccessRateDoughnut = () => {
+
+const FemaleDoughnut = () => {
   return (
-    <ResponsiveContainer width={303} height={300} className="chart-resp-cont">
+    <ResponsiveContainer width={203} height={200} className="fem-dough-resp-container-main">
     <PieChart >
         
         <Pie
           data={data}
-          cx={120}
-          cy={200}
-          innerRadius={60}
-          outerRadius={80}
+          cx={100}
+          cy={130}
+          innerRadius={40}
+          outerRadius={60}
           fill="#8884d8"
           paddingAngle={0}
           dataKey="value"
           align="center"
           stroke='none'
+          cornerRadius={40}
 
         >,
-        <Label value="80% Success" position="center" className='doug-inside'/>
+        <Label value="Female" position="center" className='doug-inside'/>
             
          
         </Pie>
@@ -42,4 +45,4 @@ const TreatmentSuccessRateDoughnut = () => {
   )
 }
 
-export default TreatmentSuccessRateDoughnut
+export default FemaleDoughnut

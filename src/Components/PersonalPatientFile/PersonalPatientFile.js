@@ -1,16 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./PersonalPatientFile.css"
 import { GiPaperBagCrumpled, GiHeartBeats, GiMedicines, GiLoveInjection } from "react-icons/gi";
 import { MdBloodtype } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 import PhenotypeDrilldownDoughnut from '../PhenotypeDrilldownDoughnut/PhenotypeDrilldownDoughnut';
 import WeightForcasting from '../WeightForcasting/WeightForcasting';
 import LineChart from '../LineChart/LineChart';
+import ProgressBar from '../ProgressBar/ProgressBar';
+import FemaleDoughnut from '../FemaleDoughnut/FemaleDoughnut';
+import MaleDoughnut from '../MaleDoughnut/MaleDoughnut';
+
 
 
 
 
 const PersonalPatientFile = () => {
+
+
+
+    // Doughnut Popup
+    const [popup, setPop] = useState(false);
+    const handleClickOpen = () => {
+
+        setPop(!popup);
+
+    }
+
+    const closePopup = () => {
+        setPop(false);
+    }
+
+
+    // Contradictions Popup
+    const [contraPopup, setContraPopup] = useState(false)
+    const onClickOpen = () => {
+        setContraPopup(!contraPopup)
+    }
+
+    const closeContraPopup = () => {
+        setContraPopup(false)
+    }
+
+
     return (
         <div className='health-overview-flex-div'>
             <div className='health-overview-width-div'>
@@ -22,7 +54,7 @@ const PersonalPatientFile = () => {
                                 <p>October 29, 2022</p>
                             </div>
                             <div className='health-overview-sub-one-flex'>
-                                <p>Medical History</p>
+                                <p style={{color : "rgb(26,115,232)", borderBottomStyle:"solid"}}>Medical History</p>
                                 <p>Questionnaire</p>
                                 <p>Events</p>
                                 <p>Documents</p>
@@ -120,12 +152,41 @@ const PersonalPatientFile = () => {
                             </div>
 
                             <div className='pheno-div-section-tag'>
-                                <div className='pheno-drill-doughnut-main-div'>
+                                <div className='pheno-drill-doughnut-main-div' style={{
+                                    paddingLeft:!popup ? '241px' : '',
+                                    transitionDuration:'2s'
+                                }} onClick={handleClickOpen}
+
+                                >
                                     <PhenotypeDrilldownDoughnut />
                                 </div>
+                                {popup ?
+                                    <div className='main'>
+                                        <div className='popup'>
+                                            <div className='pip-up-main-div'>
+                                                <div className='pop-up-sub-div-one'>
+                                                    <h4>Age</h4>
+                                                    <div>
+                                                        <ProgressBar />
+                                                    </div>
+                                                </div>
+                                                <div className='pop-up-sub-div-two'>
+                                                    <div className='female-sou-ghnut-main-div'>
+                                                        <FemaleDoughnut />
+                                                    </div>
+                                                    <div className='male-sou-ghnut-main-div'>
+                                                        <MaleDoughnut />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    : ""}
+
+
 
                                 <div className='pheno-drill-sub-sec-two'>
-                                    <div className='blood-sugar-card-in-pheno'>
+                                    <div className='blood-sugar-card-in-pheno' onClick={onClickOpen}>
                                         <div className='card-first-sec-div'>
                                             <div className='card-logo-in-contra-diction'>
                                                 <GiLoveInjection style={{ height: "25px", width: "25px", color: "white" }} />
@@ -140,6 +201,28 @@ const PersonalPatientFile = () => {
                                             <h2>2</h2>
                                         </div>
                                     </div>
+                                    {contraPopup ?
+                                        <div className='contra-pop-up-main-div'>
+                                            <div className='contra-pop-up'>
+                                                <div className='pop-up-for-contra-table-main-div'>
+                                                    <div className='pop-up-for-contra-table-sub-div-one' onClick={closeContraPopup}><p style={{ textAlign: "end", cursor: "pointer" }}><AiOutlineClose /></p></div>
+                                                    <div className='pop-up-for-contra-table-sub-div-two'>
+                                                        <p className='pop-up-for-contra-table-sub-div-two-para-tag'>Phenotype <br />Name</p>
+                                                        <p className='pop-up-for-contra-table-sub-div-two-para-tag'>Patient Comorbid <br /> Disease</p>
+                                                        <p className='pop-up-for-contra-table-sub-div-two-para-tag'>Nature of <br />Contraindications</p>
+                                                        <p className='last-one-para-incotra-popup'>Importance Level</p>
+                                                    </div>
+                                                    <div className='pop-up-for-contra-table-sub-div-three'><hr /></div>
+                                                    <div className='pop-up-for-contra-table-sub-div-three'><hr /></div>
+                                                    <div className='pop-up-for-contra-table-sub-div-three'><hr /></div>
+                                                    <div className='pop-up-for-contra-table-sub-div-three'><hr /></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        : ""}
+
+
 
                                     <div className='blood-sugar-card-in-pheno-two'>
                                         <div className='card-first-sec-div'>
@@ -196,7 +279,7 @@ const PersonalPatientFile = () => {
                     <div className='health-overview-sub-div-two'>
                         <div className='pateient-main-div'>
                             <div className='patient-img-name-div'>
-                                <div><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCJtyk8Ci_SBcBTIQbrxCO5UGrir4ZoVJ14A&usqp=CAU' className='patient-img-logo' /></div>
+                                <div><img src='https://img.freepik.com/premium-vector/user-icon_126283-435.jpg?w=2000' className='patient-img-logo' /></div>
                                 <div className='patient-info-main-div'>
                                     <p>Patient ID : P00000232</p>
                                     <h4>John Mathew, 29</h4>
@@ -235,14 +318,14 @@ const PersonalPatientFile = () => {
                         <div className='chart-section-main-div'>
                             <p>Weight Forcasting</p>
                             <div className='weight-forcast-graph-div'>
-                            <WeightForcasting/>
+                                <WeightForcasting />
                             </div>
                         </div>
 
                         <div className='chart-section-main-div-last'>
                             <h4>Body Measurements</h4>
                             <p>Last Checked 2 Days Ago</p>
-                           
+
                         </div>
 
                     </div>

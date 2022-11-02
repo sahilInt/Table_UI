@@ -53,7 +53,7 @@ const WeightForcasting = () => {
       
 
   return (
-    <div class="chart-container" style={{position: "relative", height:"165px", width:"300px"}}>
+    <div class="chart-container" style={{ height:"165px", width:"300px"}}>
     <Line data={data} options={options}/>
     </div>
   )
