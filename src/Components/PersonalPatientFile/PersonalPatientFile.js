@@ -54,7 +54,7 @@ const PersonalPatientFile = () => {
                                 <p>October 29, 2022</p>
                             </div>
                             <div className='health-overview-sub-one-flex'>
-                                <p style={{color : "rgb(26,115,232)", borderBottomStyle:"solid"}}>Medical History</p>
+                                <p style={{ color: "rgb(26,115,232)", borderBottomStyle: "solid" }}>Medical History</p>
                                 <p>Questionnaire</p>
                                 <p>Events</p>
                                 <p>Documents</p>
@@ -153,8 +153,8 @@ const PersonalPatientFile = () => {
 
                             <div className='pheno-div-section-tag'>
                                 <div className='pheno-drill-doughnut-main-div' style={{
-                                    paddingLeft:!popup ? '241px' : '',
-                                    transitionDuration:'2s'
+                                    paddingLeft: !popup ? '241px' : '',
+                                    transitionDuration: '2s'
                                 }} onClick={handleClickOpen}
 
                                 >
