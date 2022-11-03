@@ -11,7 +11,7 @@ const LoginRoutes = () => {
                 <Routes>
                     {/*<Route index element={<App />} />*/}
                     <Route path="/" element={<Login />} />
-                    <Route path="dashboard" element={<Dash />} />
+                    <Route path="mainpage" element={<Dash />} />
                 </Routes>
             </BrowserRouter>
         </React.StrictMode>
